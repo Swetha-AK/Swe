@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Employer Dashboard</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employer Dashboard</h1>
+    </header>
+    <main>
+        <section id="post-job">
+            <h2>Post a Job</h2>
+            <form id="job-form">
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" required>
+                <label for="company">Company:</label>
+                <input type="text" id="company" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+                <button type="submit">Post Job</button>
+            </form>
+        </section>
+        <section id="manage-jobs">
+            <h2>Your Job Openings</h2>
+            <ul id="employer-job-list">
+            </ul>
+        </section>
+        <button>
+            <a href="Job_board.html">Home Page</a>
+        </button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Board</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
